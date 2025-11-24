@@ -1,15 +1,37 @@
-.footer{
+footer{
     font-family:;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0%;
-    text-align: right;
-    text-align: center;
-}
+    width: 194px;
+    height: 16px;
+    margin: 92px auto 24px auto;
+    background-color: rgb(255, 0, 0);
 
-@media  (max-width:320px) {
-    .footer{
+    
+}
+@media  (max-width:1024px){
+    footer{
+        width: 194px;
+        height: 16px;
+        margin-top: 88px;
+        margin-bottom: 24px;
+    }
+} 
+
+
+@media  (max-width:640px) {
+    footer{
         line-height: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0%;
+        height: 14px;
+        
+
+
     }
 }
